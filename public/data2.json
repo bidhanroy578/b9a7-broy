@@ -1,0 +1,107 @@
+[
+    {
+      "coverPic": "https://www.allrecipes.com/thmb/05b7f8d5e15b7a894b713b1995f78789/750/1543222122/spaghetti-aglio-e-olio-h-001-f2.jpg",
+      "name": "Spaghetti Aglio e Olio",
+      "detail": "A simple yet flavorful pasta dish with garlic, olive oil, and red pepper flakes.",
+      "ingredients": [
+        "Spaghetti",
+        "Olive oil",
+        "Garlic cloves",
+        "Red pepper flakes",
+        "Fresh parsley",
+        "Parmesan cheese",
+        "Salt",
+        "Pepper"
+      ],
+      "cookingTime": "20 minutes",
+      "calories": 350
+    },
+    {
+      "coverPic": "https://www.allrecipes.com/thmb/9726f5899e4319917629369689377f4b/750/1543222122/chicken-tikka-masala-h-001-f2.jpg",
+      "name": "Chicken Tikka Masala",
+      "detail": "A creamy and aromatic Indian curry dish with tender chicken.",
+      "ingredients": [
+        "Chicken breasts",
+        "Yogurt",
+        "Ginger-garlic paste",
+        "Garam masala",
+        "Cumin powder",
+        "Coriander powder",
+        "Turmeric powder",
+        "Cardamom pods",
+        "Bay leaves"
+      ],
+      "cookingTime": "45 minutes",
+      "calories": 450
+    },
+    {
+      "coverPic": "https://www.allrecipes.com/thmb/54b7f8d5e15b7a894b713b1995f78789/750/1543222122/spaghetti-aglio-e-olio-h-001-f2.jpg",
+      "name": "Chocolate Chip Cookies",
+      "detail": "Classic chewy chocolate chip cookies, perfect for any occasion.",
+      "ingredients": [
+        "All-purpose flour",
+        "Baking soda",
+        "Salt",
+        "Unsalted butter",
+        "Granulated sugar",
+        "Brown sugar",
+        "Vanilla extract",
+        "Eggs",
+        "Chocolate chips"
+      ],
+      "cookingTime": "12 minutes",
+      "calories": 250
+    },
+    {
+      "coverPic": "https://www.allrecipes.com/thmb/9726f5899e4319917629369689377f4b/750/1543222122/chicken-tikka-masala-h-001-f2.jpg",
+      "name": "Caesar Salad",
+      "detail": "A refreshing and crunchy salad with romaine lettuce, croutons, and a creamy dressing.",
+      "ingredients": [
+        "Romaine lettuce",
+        "Croutons",
+        "Parmesan cheese",
+        "Lemon juice",
+        "Dijon mustard",
+        "Mayonnaise",
+        "Black pepper",
+        "Worcestershire sauce"
+      ],
+      "cookingTime": "15 minutes",
+      "calories": 200
+    },
+    {
+      "coverPic": "https://www.allrecipes.com/thmb/05b7f8d5e15b7a894b713b1995f78789/750/1543222122/spaghetti-aglio-e-olio-h-001-f2.jpg",
+      "name": "Beef Bourguignon",
+      "detail": "A hearty French stew with tender beef, mushrooms, and red wine.",
+      "ingredients": [
+        "Beef chuck roast",
+        "Bacon",
+        "Carrots",
+        "Onion",
+        "Garlic",
+        "Red wine",
+        "Beef broth",
+        "Bay leaves",
+        "Thyme"
+      ],
+      "cookingTime": "3 hours",
+      "calories": 500
+    },
+    {
+      "coverPic": "https://www.allrecipes.com/thmb/9726f5899e4319917629369689377f4b/750/1543222122/chicken-tikka-masala-h-001-f2.jpg",
+      "name": "Sushi Rolls",
+      "detail": "Fresh and flavorful sushi rolls with your choice of fillings.",
+      "ingredients": [
+        "Sushi rice",
+        "Nori seaweed",
+        "Avocado",
+        "Cucumber",
+        "Salmon",
+        "Soy sauce",
+        "Wasabi",
+        "Ginger"
+      ],
+      "cookingTime": "30 minutes",
+      "calories": 300
+    }
+  ]

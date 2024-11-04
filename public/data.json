@@ -1,0 +1,110 @@
+[
+    {
+        "cover_pic": "https://images.unsplash.com/photo-1521389508051-d7ffb5dc8d9f",
+        "recipe_name": "Spaghetti Carbonara",
+        "small_detail": "A creamy Italian pasta dish with pancetta and parmesan.",
+        "ingredients": [
+            "spaghetti",
+            "pancetta",
+            "parmesan cheese",
+            "eggs",
+            "black pepper",
+            "garlic",
+            "olive oil",
+            "salt"
+        ],
+        "cooking_time": "25 minutes",
+        "calories": 520
+    },
+    {
+        "cover_pic": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
+        "recipe_name": "Avocado Toast",
+        "small_detail": "A quick and healthy avocado toast with a variety of toppings.",
+        "ingredients": [
+            "sourdough bread",
+            "avocado",
+            "feta cheese",
+            "cherry tomatoes",
+            "radishes",
+            "lemon juice",
+            "salt",
+            "pepper",
+            "olive oil"
+        ],
+        "cooking_time": "10 minutes",
+        "calories": 300
+    },
+    {
+        "cover_pic": "https://images.unsplash.com/photo-1617471547521-bf0c3c5c22c1",
+        "recipe_name": "Chicken Tikka Masala",
+        "small_detail": "A flavorful, spiced chicken curry served in a creamy tomato sauce.",
+        "ingredients": [
+            "chicken breast",
+            "yogurt",
+            "garam masala",
+            "garlic",
+            "ginger",
+            "tomato puree",
+            "onion",
+            "heavy cream",
+            "cilantro"
+        ],
+        "cooking_time": "45 minutes",
+        "calories": 600
+    },
+    {
+        "cover_pic": "https://images.unsplash.com/photo-1606787366850-de6330128bfc",
+        "recipe_name": "Veggie Burrito Bowl",
+        "small_detail": "A colorful bowl packed with rice, beans, veggies, and salsa.",
+        "ingredients": [
+            "brown rice",
+            "black beans",
+            "corn",
+            "bell peppers",
+            "red onion",
+            "cilantro",
+            "lime",
+            "salsa",
+            "avocado"
+        ],
+        "cooking_time": "20 minutes",
+        "calories": 450
+    },
+    {
+        "cover_pic": "https://images.unsplash.com/photo-1596526131083-baf8f1b7df15",
+        "recipe_name": "Shakshuka",
+        "small_detail": "A savory Middle Eastern dish of poached eggs in a spiced tomato sauce.",
+        "ingredients": [
+            "eggs",
+            "tomato",
+            "bell peppers",
+            "onion",
+            "garlic",
+            "paprika",
+            "cumin",
+            "cilantro",
+            "olive oil",
+            "salt and pepper"
+        ],
+        "cooking_time": "30 minutes",
+        "calories": 320
+    },
+    {
+        "cover_pic": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+        "recipe_name": "Mango Smoothie Bowl",
+        "small_detail": "A refreshing smoothie bowl topped with fruits and granola.",
+        "ingredients": [
+            "frozen mango",
+            "banana",
+            "coconut milk",
+            "chia seeds",
+            "granola",
+            "blueberries",
+            "strawberries",
+            "honey",
+            "mint leaves"
+        ],
+        "cooking_time": "10 minutes",
+        "calories": 280
+    }
+]
