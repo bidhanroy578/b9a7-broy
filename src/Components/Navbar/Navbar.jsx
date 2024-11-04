@@ -1,4 +1,3 @@
-import React from 'react';
 import { CiSearch  } from "react-icons/ci";
 import { CgProfile } from "react-icons/cg";
 const Navbar = () => {
@@ -29,4 +28,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar; <h3>nav here </h3>
+export default Navbar;
