@@ -21,6 +21,8 @@ const Recipes = () => {
 
     let handlePreparingButton = (cooking) => {
         setCookingList([...cookingList, cooking])
+        let newRecipeToCook = recipeToCook.filter((item)=>item.id!==cooking.id)
+        setRecipeToCook(newRecipeToCook)
     }
 
 
@@ -43,6 +45,8 @@ const Recipes = () => {
                 {/* table  */}
 
                 <div className='md:w-[39%] md:py-10 h-fit border-2 border-slate-400 rounded-3xl '>
+
+                    {/* add to cook list  */}
                     <div className=''>
                         <table className='table-auto text-center w-full'>
                             <caption>Want to cook: {recipeToCook.length}</caption>
@@ -63,9 +67,11 @@ const Recipes = () => {
                             </tbody>
                         </table>
                     </div>
+
+                    {/* cooking llist */}
                     <div>
                         <table className='table-auto text-center w-full'>
-                            <caption>Currently cooking: 02</caption>
+                            <caption>Currently cooking: {cookingList.length}</caption>
                             <thead className=''>
                                 <tr className=''>
                                     <th className='w-[8%] '></th>
