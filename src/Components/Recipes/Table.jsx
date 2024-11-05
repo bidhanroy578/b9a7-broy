@@ -6,7 +6,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 const Table = ({recipe , serial , handlePreparingButton, cookingList}) => {
 
-    const notify = () => toast.error('Already selected !!! select another.');
+    const notify = () => toast.error('Already cooking !!! select another.');
 
 
     const fnc = ()=>{
