@@ -2,11 +2,11 @@ import PropTypes from 'prop-types';
 import { MdOutlineWatchLater } from "react-icons/md";
 import { AiOutlineFire } from "react-icons/ai";
 
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe, handleCookButton }) => {
     let { cover_pic, recipe_name, small_detail, ingredients,cooking_time,calories } = recipe
 
     return (
-        <div className=' md:p-10 border-2 border-slate-400 rounded-3xl flex flex-col items-center justify-center'>
+        <div className=' md:p-6 border-2 border-slate-400 rounded-3xl flex flex-col items-center justify-center'>
             <div>
                 <img src={cover_pic} alt="" className='max-h-[200px] rounded-2xl' />
             </div>
@@ -27,13 +27,14 @@ const Recipe = ({ recipe }) => {
                 <p className='flex gap-2 items-center'><MdOutlineWatchLater />{cooking_time} minutes</p>
                 <p className='flex gap-2 items-center'><AiOutlineFire />{calories} calories</p>
             </div>
-            <button className=' text-lg hover:opacity-80 font-bold bg-[#0BE58A] px-[1.5em] py-[.4em] rounded-3xl'>Want to Cook</button>
+            <button onClick={()=>handleCookButton(recipe)} className=' text-lg hover:opacity-80 font-bold bg-[#0BE58A] px-[1.5em] py-[.4em] rounded-3xl'>Want to Cook</button>
         </div>
     );
 };
 
 Recipe.propTypes = {
-    recipe: PropTypes.object
+    recipe: PropTypes.object ,
+    handleCookButton: PropTypes.func
 };
 
 export default Recipe;

@@ -2,7 +2,7 @@ import { CiSearch  } from "react-icons/ci";
 import { CgProfile } from "react-icons/cg";
 const Navbar = () => {
     return (
-        <div className='m-2 md:m-10' >
+        <div className='m-2 md:m-6' >
             <div className='grid md:grid-cols-3 grid-flow-row gap-10 items-center'>
                 <div className='text-3xl lexend-bold'>Recipe Calories</div>
                 <div className='flex justify-between lexend-regular text-lg'>

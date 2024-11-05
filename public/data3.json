@@ -1,5 +1,6 @@
 [
     {
+        "id": 1 ,
         "cover_pic": "https://images.unsplash.com/photo-1521389508051-d7ffb5dc8d9f",
         "recipe_name": "Spaghetti Carbonara",
         "small_detail": "A creamy Italian pasta dish with pancetta and parmesan.",
@@ -17,6 +18,7 @@
         "calories": 520
     },
     {
+        "id": 2 ,
         "cover_pic": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
         "recipe_name": "Avocado Toast",
         "small_detail": "A quick and healthy avocado toast with a variety of toppings.",
@@ -35,6 +37,7 @@
         "calories": 300
     },
     {
+        "id": 3 ,
         "cover_pic": "https://images.unsplash.com/photo-1617471547521-bf0c3c5c22c1",
         "recipe_name": "Chicken Tikka Masala",
         "small_detail": "A flavorful, spiced chicken curry served in a creamy tomato sauce.",
@@ -53,6 +56,7 @@
         "calories": 600
     },
     {
+        "id": 4 ,
         "cover_pic": "https://images.unsplash.com/photo-1606787366850-de6330128bfc",
         "recipe_name": "Veggie Burrito Bowl",
         "small_detail": "A colorful bowl packed with rice, beans, veggies, and salsa.",
@@ -71,6 +75,7 @@
         "calories": 450
     },
     {
+        "id": 5 ,
         "cover_pic": "https://images.unsplash.com/photo-1596526131083-baf8f1b7df15",
         "recipe_name": "Shakshuka",
         "small_detail": "A savory Middle Eastern dish of poached eggs in a spiced tomato sauce.",
@@ -90,6 +95,7 @@
         "calories": 320
     },
     {
+        "id": 6 ,
         "cover_pic": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
         "recipe_name": "Mango Smoothie Bowl",
         "small_detail": "A refreshing smoothie bowl topped with fruits and granola.",
