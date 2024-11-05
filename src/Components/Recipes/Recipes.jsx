@@ -61,7 +61,7 @@ const Recipes = () => {
                             </thead>
                             <tbody>
                                 {
-                                    recipeToCook.map((recipe, idx) => <Table key={recipe.id} recipe={recipe} serial={idx} handlePreparingButton={handlePreparingButton}></Table>)
+                                    recipeToCook.map((recipe, idx) => <Table key={recipe.id} recipe={recipe} serial={idx} handlePreparingButton={handlePreparingButton} cookingList={cookingList}></Table>)
                                 }
 
                             </tbody>
