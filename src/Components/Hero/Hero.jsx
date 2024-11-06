@@ -1,7 +1,7 @@
 import './Hero.css'
 const Hero = () => {
     return (
-        <div className='m-2 md:m-4'>
+        <div className='m-2 md:m-4 mt-8'>
             <div className='bgimg bg-center text-white flex flex-col text-center justify-center gap-5 items-center space-y-5 min-h-[80vh] p-1 py-10 md:p-10 rounded-3xl'>
                 <h3 className='lexend-bold text-3xl md:text-5xl leading-normal'>Discover an exceptional cooking <br /> class tailored for you! </h3>
                 <p className='text-sm sm:text-base'>Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
