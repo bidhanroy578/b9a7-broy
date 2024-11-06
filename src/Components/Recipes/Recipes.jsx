@@ -30,7 +30,7 @@ const Recipes = () => {
         <div className='m-2 md:m-4 pt-16'>
             <div className='text-center space-y-5'>
                 <h3 className='lexend-semibold text-3xl md:text-[40px] '>Our Recipes</h3>
-                <p className='lexend-regular text-[#150B2B99] md:pt-4'>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget <br /> urna volutpat curabitur elementum mauris aenean neque. </p>
+                <p className='lexend-regular text-[#150B2B99] md:pt-4 md:w-[80%] mx-auto'>Our recipes offer a mix of vibrant flavors and wholesome ingredients, featuring globally inspired dishes like creamy Italian pasta, fresh avocado toast, and spicy chicken tikka masala. From comforting shakshuka to colorful veggie burrito bowls and tropical smoothie bowls, each recipe is crafted for delicious simplicity and nutritious enjoyment. Perfect for quick meals or satisfying snacks!</p>
             </div>
             <div className='flex flex-col lg:flex-row justify-between mt-4 md:mt-10'>
                 <div className='lg:w-[59.45%]'>
