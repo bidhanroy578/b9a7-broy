@@ -90,8 +90,8 @@ const Recipes = () => {
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td>Total Time ={cookingList.reduce((n1, n2) => n1 + n2.cooking_time, 0)} minutes</td>
-                                    <td>Total Calories = {cookingList.reduce((n1, n2) => n1 + n2.calories, 0)} calories</td>
+                                    <td className='text-[#282828CF] lexend-medium pt-3'>Total Time ={cookingList.reduce((n1, n2) => n1 + n2.cooking_time, 0)} minutes</td>
+                                    <td className='text-[#282828CF] lexend-medium pt-3 pr-1 md:pr-5'>Total Calories = {cookingList.reduce((n1, n2) => n1 + n2.calories, 0)} calories</td>
                                 </tr>
 
                             </tbody>
