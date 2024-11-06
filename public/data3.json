@@ -1,7 +1,7 @@
 [
     {
         "id": 1 ,
-        "cover_pic": "https://images.unsplash.com/photo-1521389508051-d7ffb5dc8d9f",
+        "cover_pic": "https://img.freepik.com/premium-photo/spaghetti-carbonara-onion-mushroom-cream-sauce-with-ham-fresh-basil-traditional-italian-cuisine-style-side-view-isolated_71919-273.jpg?w=996",
         "recipe_name": "Spaghetti Carbonara",
         "small_detail": "A creamy Italian pasta dish with pancetta and parmesan.",
         "ingredients": [
@@ -19,7 +19,7 @@
     },
     {
         "id": 2 ,
-        "cover_pic": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
+        "cover_pic": "https://i1.pickpik.com/photos/711/982/403/food-drink-food-healthy-preview.jpg",
         "recipe_name": "Avocado Toast",
         "small_detail": "A quick and healthy avocado toast with a variety of toppings.",
         "ingredients": [
@@ -38,7 +38,7 @@
     },
     {
         "id": 3 ,
-        "cover_pic": "https://images.unsplash.com/photo-1617471547521-bf0c3c5c22c1",
+        "cover_pic": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hpY2tlbiUyMFRpa2thJTIwTWFzYWxhfGVufDB8fDB8fHww",
         "recipe_name": "Chicken Tikka Masala",
         "small_detail": "A flavorful, spiced chicken curry served in a creamy tomato sauce.",
         "ingredients": [
@@ -76,7 +76,7 @@
     },
     {
         "id": 5 ,
-        "cover_pic": "https://images.unsplash.com/photo-1596526131083-baf8f1b7df15",
+        "cover_pic": "https://media.istockphoto.com/id/1066503890/photo/breakfast-shakshuka-fried-eggs-with-tomatoes-in-frying-pan-and-bread-with-soft-goat-cheese.jpg?s=612x612&w=0&k=20&c=-vS7EVj4wXlMFs_gTuv5pKjpUIkOXJNPNymCieABMdc=",
         "recipe_name": "Shakshuka",
         "small_detail": "A savory Middle Eastern dish of poached eggs in a spiced tomato sauce.",
         "ingredients": [
