@@ -70,7 +70,7 @@ const Recipes = () => {
                     </div>
 
                     {/* cooking llist */}
-                    <div className='text-center'>
+                    <div className='text-center mt-5'>
                         <h3 className='lexend-semibold text-2xl'>Currently cooking: {cookingList.length}</h3>
                         <hr className='border-t-2 border-[#28282828] w-[70%] mx-auto my-4' />
 
