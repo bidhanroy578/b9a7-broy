@@ -19,11 +19,11 @@ const Table = ({recipe , serial , handlePreparingButton, cookingList}) => {
     let {recipe_name,cooking_time,calories} = recipe
     return (
         <tr className="bg-slate-50 h-16 ">
-            <td className="">{serial + 1 }</td>
+            <td className="text-[#282828cb]">{serial + 1 }</td>
             <td className="px-[2px]">{recipe_name}</td>
             <td className='px-[2px]'>{cooking_time} minutes</td>
             <td className='px-[2px]'>{calories} calories</td>
-            <td className='px-[2px]'><button onClick={fnc2} className="hover:opacity-80 bg-green-500 px-[0.95em] py-[0.30em] rounded-3xl">Preparing</button></td>
+            <td className='px-[2px]'><button onClick={fnc2} className="hover:opacity-80 bg-[#0BE58A] text-[12px] sm:text-sm md:text-base px-[0.95em] py-[0.30em] rounded-3xl lexend-medium text-[#150B2B]">Preparing</button></td>
             <td><Toaster /></td>
         </tr>
     );
