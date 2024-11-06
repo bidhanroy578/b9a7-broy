@@ -9,7 +9,7 @@ const Table = ({recipe , serial , handlePreparingButton, cookingList}) => {
     const notify = () => toast.error('Already cooking !!! select another.');
 
 
-    const fnc = ()=>{
+    const fnc2 = ()=>{
         let double = cookingList.find((list)=>list.id===recipe.id)
         if(!double){
             handlePreparingButton(recipe)
@@ -23,7 +23,7 @@ const Table = ({recipe , serial , handlePreparingButton, cookingList}) => {
             <td className="px-[2px]">{recipe_name}</td>
             <td className='px-[2px]'>{cooking_time} minutes</td>
             <td className='px-[2px]'>{calories} calories</td>
-            <td className='px-[2px]'><button onClick={fnc} className="hover:opacity-80 bg-green-500 px-[0.95em] py-[0.30em] rounded-3xl">Preparing</button></td>
+            <td className='px-[2px]'><button onClick={fnc2} className="hover:opacity-80 bg-green-500 px-[0.95em] py-[0.30em] rounded-3xl">Preparing</button></td>
             <td><Toaster /></td>
         </tr>
     );

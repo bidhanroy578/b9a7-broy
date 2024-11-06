@@ -6,7 +6,7 @@ const Recipes = () => {
 
     let [recipes, setRecipes] = useState([])
     let [recipeToCook, setRecipeToCook] = useState([])
-    let [cookingList , setCookingList] = useState([])
+    let [cookingList, setCookingList] = useState([])
 
 
     useEffect(() => {
@@ -21,7 +21,7 @@ const Recipes = () => {
 
     let handlePreparingButton = (cooking) => {
         setCookingList([...cookingList, cooking])
-        let newRecipeToCook = recipeToCook.filter((item)=>item.id!==cooking.id)
+        let newRecipeToCook = recipeToCook.filter((item) => item.id !== cooking.id)
         setRecipeToCook(newRecipeToCook)
     }
 
@@ -82,9 +82,15 @@ const Recipes = () => {
                             </thead>
                             <tbody>
                                 {
-                                    cookingList.map((list,idx)=><TableCooked key={list.id} list={list} idx={idx}></TableCooked>)
+                                    cookingList.map((list, idx) => <TableCooked key={list.id} list={list} idx={idx}></TableCooked>)
                                 }
-                                
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Total Time ={cookingList.reduce((n1, n2)=>n1 + n2.cooking_time , 0 )} minutes</td>
+                                    <td>Total Calories = {cookingList.reduce((n1, n2)=>n1 + n2.calories , 0 )} calories</td>
+                                </tr>
+
                             </tbody>
                         </table>
                     </div>

@@ -8,17 +8,20 @@ import toast, { Toaster } from 'react-hot-toast';
 const Recipe = ({ recipe, handleCookButton, recipeToCook }) => {
     let { cover_pic, recipe_name, small_detail, ingredients,cooking_time,calories } = recipe
 
-    const notifyA = () => toast.error('Already selected !!! select another.');
+    const notify = () => toast.error('Already selected !!! select another.');
 
     const fnc = ()=>{
         let double = recipeToCook.find((list)=>list.id===recipe.id)
         if(!double){
             handleCookButton(recipe)
         }
-        else{notifyA()}
+        else{notify()}
     }
     return (
         <div className=' md:p-6 border-2 border-slate-400 rounded-3xl flex flex-col items-center justify-center'>
+             <div>
+            <Toaster />
+            </div>
             <div>
                 <img src={cover_pic} alt="" className='max-h-[200px] rounded-2xl' />
             </div>
@@ -40,7 +43,7 @@ const Recipe = ({ recipe, handleCookButton, recipeToCook }) => {
                 <p className='flex gap-2 items-center'><AiOutlineFire />{calories} calories</p>
             </div>
             <button onClick={fnc} className=' text-lg hover:opacity-80 font-bold bg-[#0BE58A] px-[1.5em] py-[.4em] rounded-3xl'>Want to Cook</button>
-            <Toaster />
+           
         </div>
     );
 };
